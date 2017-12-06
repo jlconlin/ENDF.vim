@@ -16,7 +16,3 @@ syn region string start="\%67c" end="\%71c"
 syn region Statement start="\%71c" end="\%73c"
 " MT region
 syn region constant start="\%73c" end="\%76c"
-
-" Highlight the columns ending each number
-set colorcolumn=11,22,33,44,55,66
-
