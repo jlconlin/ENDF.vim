@@ -4,5 +4,5 @@ endif
 
 augroup filetypedetect
     " Recognize ENDF files
-    au BufRead,BufNewFile *.endf,*.rendf, *.pendf setfiletype endf
+    au BufRead,BufNewFile *.endf,*.rendf,*.pendf setfiletype ENDF
 augroup END
